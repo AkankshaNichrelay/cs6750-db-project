@@ -1,6 +1,6 @@
 <?php
 include_once("./homepage_lib.php");
-include_once("../Header.php");
+include_once("../Header/Header.php");
 ?>
 <h3> Your playlists </h3>
 <?php
