@@ -8,6 +8,9 @@
     <body>
         <header>
             <ul class="navbar">
+                <li class="navbar" style="float:left">
+                    <a class="navbar" href="../Homepage/Homepage.php">Home</a>
+                </li>
                 <li class="navbar">
                     <a class="navbar" href="../Profile/Profile.php">
                         <?php
