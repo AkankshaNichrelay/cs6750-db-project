@@ -65,7 +65,7 @@ function getOwnedPlaylists($userID) {
   }
 
   while($row = mysqli_fetch_array($result)) {
-    echo "<p>" . $row['PlaylistName'] . "</p>";
+    echo "<li class='listItem'><a class='listItem' href='#'>" . $row['PlaylistName'] . "</a></li>";
   }
   mysqli_close($con);
 }
@@ -88,7 +88,7 @@ function getArtistsFollowed($userID) {
   }
 
   while ($row = mysqli_fetch_array($result)) {
-    echo "<p>" . $row['ArtistName'] . "</p>";
+    echo "<li class='listItem'><a class='listItem' href='#'>" . $row['ArtistName'] . "</a></li>";
   }
   mysqli_close($con);
 }
@@ -111,7 +111,7 @@ function getUsersFollowed($userID) {
   }
 
   while ($row = mysqli_fetch_array($result)) {
-    echo "<p>" . $row['UserName'] . "</p>";
+    echo "<li class='listItem'><a class='listItem' href='#'>" . $row['UserName'] . "</a></li>";
   }
   mysqli_close($con);
 }

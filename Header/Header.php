@@ -3,12 +3,13 @@
         <meta charset="UTF-8">
         <meta name="description" contents="Musify Header">
         <link rel="stylesheet" href="../Header/Header.css">
+        <link rel="stylesheet" href="../Homepage/Homepage.css">
     </head>
     <body>
         <header>
-            <ul>
-                <li>
-                    <a href="../Profile/Profile.php">
+            <ul class="navbar">
+                <li class="navbar">
+                    <a class="navbar" href="../Profile/Profile.php">
                         <?php
                             $userID = 2;
                             $con = connectDB();

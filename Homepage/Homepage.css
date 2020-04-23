@@ -1,0 +1,26 @@
+div.listHost {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #575752;
+    height: 100%;
+}
+
+h3.listHeader {
+    font-family: sans-serif;
+    padding-left: 2%;
+    color: #DDD;
+}
+
+li a.listItem {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #DDD;
+    margin-left: 5%;
+    padding: 0.5%;
+}
+
+li a.listItem:hover {
+    background-color: rgb(51, 51, 51);
+}
