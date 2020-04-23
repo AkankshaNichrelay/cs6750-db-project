@@ -1,0 +1,22 @@
+h1{
+    background-color: #333;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    margin:0;
+    height: 100px;
+    font-family: Jazz LET, fantasy;
+}
+.main {
+    background-color: #575752;
+    text-align: center;
+    color: white;
+}
+
+a:link, a:visited {
+    color:white;
+}
+
+a:hover{
+    color:cyan;
+}

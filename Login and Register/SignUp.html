@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+		<head>
+			<meta charset="UTF-8">
+
+			<meta name="author" content="Emily">
+			<title> Sign Up to MusiFi</title>
+			<link rel="stylesheet" href="styles/SignUp.css">
+
+		</head>
+		<body class="main">
+			<header>
+				<h1> Sign Up </h1>
+				<h3> Enter your info here </h3>
+
+			</header>
+
+			<form action="actionSignUp.php" method="post">
+				<p> <input type="email" name="SU_email" placeholder="Email" autofocus required/> </p>
+				<p> <input type="text" name="username" placeholder="Username" required/> </p>
+				<p> <input type="text" name="password" placeholder="Password" required/> </p>
+				<p>Register as: 
+					<input type="Radio" name="type" value='User'> User
+					<input type='Radio' name="type" value='Artist'> Artist </p>
+				<p> <input type="submit"/> </p>
+
+			</form>
+			
+
+		</body>
+	</html>
