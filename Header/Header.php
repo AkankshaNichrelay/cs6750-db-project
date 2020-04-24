@@ -4,6 +4,7 @@
         <meta name="description" contents="Musify Header">
         <link rel="stylesheet" href="../Header/Header.css">
         <link rel="stylesheet" href="../Homepage/Homepage.css">
+        <link rel="stylesheet" href="../Profile/Profile.css">
     </head>
     <body>
         <header>

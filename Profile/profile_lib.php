@@ -36,7 +36,7 @@ function getArtistsFollowed($userID) {
     }
     
     while ($row = mysqli_fetch_array($result)) {
-      echo "<li><a href='#'>" . $row['ArtistName'] . "</a></li>";
+      echo "<li class='profileListItem'><a class='profileListItem' href='#'>" . $row['ArtistName'] . "</a></li>";
     }
     mysqli_close($con);
 }
@@ -98,7 +98,7 @@ function getUsersFollowed($userID) {
     }
   
     while ($row = mysqli_fetch_array($result)) {
-      echo "<li class='listItem'><a class='listItem' href='#'>" . $row['UserName'] . "</a></li>";
+      echo "<li class='profileListItem'><a class='profileListItem' href='#'>" . $row['UserName'] . "</a></li>";
     }
     mysqli_close($con);
 }
@@ -120,7 +120,7 @@ function getUsersFollowingID($userID) {
     }
     
     while ($row = mysqli_fetch_array($result)) {
-        echo "<li class='listItem'><a class='listItem' href='#'>" . $row['UserName'] . "</a></li>";
+        echo "<li class='profileListItem'><a class='profileListItem' href='#'>" . $row['UserName'] . "</a></li>";
     }
     mysqli_close($con);
 }

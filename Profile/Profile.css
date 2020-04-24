@@ -1,0 +1,46 @@
+div.profileHost {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #575752;
+    height: 100%;
+}
+
+h1.profileHeader {
+    font-family: sans-serif;
+    color: #DDD;
+    text-align: center;
+}
+
+h3.statsHeader {
+    font-family: sans-serif;
+    color: #DDD;
+    text-align: center;
+}
+
+h3.followingHeader {
+    font-family: sans-serif;
+    color: #DDD;
+    text-align: center;
+}
+
+li a.profileListItem {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #DDD;
+    margin-left: 25%;
+    padding: 0.5%;
+}
+
+li a.profileListItem:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+div.profileColumn {
+    flex: 50%;
+}
+
+div.profileRow { 
+    display: flex;
+}
