@@ -1,4 +1,4 @@
 <?php //TODO: view profile
-$username = $_GET['songSearch'];
-echo $username;
+$songID = $_GET['song_id'];
+echo $songID;
 ?>
